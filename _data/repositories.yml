@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - astanziola
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ucl-bug/jwave
+  - ucl-bug/jaxdf
+  - ucl-bug/helmnet
+  - astanziola/luprox
+  - astanziola/siren-flax
+  - astanziola/fourier-neural-operator-flax
+  - astanziola/ml-us-deadlines
