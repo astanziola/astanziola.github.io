@@ -9,7 +9,7 @@ categories: code-examples
 
 On December 2020, Tatsuki Fushimi, Kenta Yamamoto & Yoichi Ochiai have [submitted a preprint](https://arxiv.org/abs/2012.02431), later accepted by [Scientific Reports](https://www.nature.com/articles/s41598-021-91880-2), on using **automatic differentiation** for the optimization of acoustic holograms produced by phased arrays.
 
-This work provides a good study case for demonstrating the use of [jax](https://jax.readthedocs.io/en/latest/) for scientific applications not related to machine learning. In the following, we will implement the main algorithm discussed in the paper using `jax`.
+In the following, we will implement the main algorithm discussed in the paper using [jax](https://jax.readthedocs.io/en/latest/): this work provides a good case study for demonstrating the use of [jax](https://jax.readthedocs.io/en/latest/) for scientific applications not related to machine learning.
 
 ## Problem setup
 
@@ -19,13 +19,13 @@ $$
 k = \frac{2\pi f_0}{c_0}, 
 $$
 
-where $$f_0$$ is the transmit frequency and $$c_0$$ is the speed of sound of the homogeneous medium. Then one can use a simplified version of the **Rayleigh integral** (see [[Sapozhnikov et al., 2015]](https://pubmed.ncbi.nlm.nih.gov/26428789/) for a more detailed discussion) to calculate the pressure field at a location $$x_c$$
+where $$f_0$$ is the transmit frequency and $$c_0$$ is the speed of sound of the homogeneous medium. Then one can use a simplified version of the **Rayleigh integral** (see [[Sapozhnikov et al., 2015]](https://pubmed.ncbi.nlm.nih.gov/26428789/) for a more general discussion) to calculate the pressure field at a location $$x_c$$
 
 $$
 p_{c,t} = \frac{P_{ref}}{\|x_c - x_t\|}D(\theta)e^{j(k\|x_t-x_c\|+ \phi_t)}
 $$
 
-where $$P_ref$$ is the pressure amplitude at the transducer, $$\phi_t$$ is the phase of the transmit wave and 
+where $$P_{ref}$$ is the pressure amplitude at the transducer, $$\phi_t$$ is the phase of the transmit wave and 
 
 $$
 D(\theta) = \frac{2J_1(k r \sin(\theta))}{k r \sin(\theta)}
@@ -183,10 +183,6 @@ Let's look at the hologram for the initial, flat phase distribution
 
 p = get_hologram(phases)
 
-plt.imshow(jnp.abs(p), vmin=0, cmap="inferno")
-plt.colorbar()
-plt.title("Beampattern in plane (x,y,0.1)")
-
 {% endhighlight %}
 
 <div class="row mt-3">
@@ -205,7 +201,6 @@ Let's start with a very simple image that we are trying to match
 
 {% highlight python %}
 
-from tqdm import tqdm
 from jax.example_libraries import optimizers
 from jax import random
 
@@ -217,11 +212,6 @@ reference_hologram = reference_hologram.at[96:128,164:150].set(1.)
 reference_hologram = reference_hologram.at[150:210,128:164].set(.3)
 reference_hologram = reference_hologram.at[150:190,64:100].set(.7)
 reference_hologram = reference_hologram.at[200:230,64:200].set(.2)
-
-# Showing it
-plt.imshow(reference_hologram, cmap="inferno")
-plt.colorbar()
-plt.title("Target")
 
 {% endhighlight %}
 
@@ -313,7 +303,7 @@ After the optimization is over, which should be relatively fast especially if yo
     </div>
 </div>
 
-It is fairly close to the target hologram, but not quite. One could experiment with different loss functions, or with different initial phases. Note however that we are currently only controlling the phase of the transducers. If one could also control the amplitude, than the wave propagator is a linear operator of the complex input parameters, making the optimization problem convex and therefore uniquely solvable.
+It is fairly close to the target hologram, but not quite. One could experiment with different loss functions, or with different initial phases. Note however that we are currently only controlling the phase of the transducers. If one could also control the amplitude, than the wave propagator is a **linear operator** of the complex input parameters $$P_{t}e^{j\theta_t}$$, making the MSE optimization problem convex and therefore uniquely solvable (up to a global phase shift).
 
 ## Conclusions
 
