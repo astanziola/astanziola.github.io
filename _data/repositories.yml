@@ -8,4 +8,5 @@ github_repos:
   - astanziola/luprox
   - astanziola/siren-flax
   - astanziola/fourier-neural-operator-flax
+  - epignatelli/scalable-recognition-with-a-vocabulary-tree
   - astanziola/ml-us-deadlines
