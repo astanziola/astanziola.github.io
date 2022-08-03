@@ -126,7 +126,7 @@ where $$J_0(x)$$ is the Bessel function of the first kind of order 0, which is i
 
 def J1(x):
     J0 = lambda x: jnp.i0(-1j*x)
-    return -jax.grad(lambda x: J0(x))(x).real
+    return -jax.grad(J0)(x).real
 
 {% endhighlight %}
 
