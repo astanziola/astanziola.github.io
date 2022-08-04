@@ -315,4 +315,4 @@ The findings from Fushimi et al. could also be extended in a number of ways. For
 
 ### References
 
-- Fushimi, T., Yamamoto, K. & Ochiai, Y. **Acoustic hologram optimisation using automatic differentiation.** Sci Rep 11, 12678 (2021). \[https://doi.org/10.1038/s41598-021-91880-2](https://www.nature.com/articles/s41598-021-91880-2)
+- Fushimi, T., Yamamoto, K. & Ochiai, Y. **Acoustic hologram optimisation using automatic differentiation.** Sci Rep 11, 12678 (2021). [https://doi.org/10.1038/s41598-021-91880-2](https://www.nature.com/articles/s41598-021-91880-2)
