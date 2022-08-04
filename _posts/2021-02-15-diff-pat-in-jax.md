@@ -312,3 +312,7 @@ In this tutorial, we have reproduced the Diff-PAT algorithm, and we have shown h
 A jupyter notebook implementing this tutorial can be found [at the following GitHub repo](https://github.com/astanziola/diff-pat-jax).
 
 The findings from Fushimi et al. could also be extended in a number of ways. For example, the hologram produced by a planar wavefront could be efficiently propagated in the Fourier domain: this is implemented in the [`angular_spectrum`](https://github.com/ucl-bug/jwave/blob/e8884856b0cf88c5fe7ede5e003d98143c8973e5/jwave/acoustics/time_harmonic.py#L17) function of the `jwave` package.
+
+### References
+
+- Fushimi, T., Yamamoto, K. & Ochiai, Y. **Acoustic hologram optimisation using automatic differentiation.** Sci Rep 11, 12678 (2021). \[https://doi.org/10.1038/s41598-021-91880-2](https://www.nature.com/articles/s41598-021-91880-2)
