@@ -16,5 +16,5 @@ My interests span across ultrasound, machine learning, physical modeling, invers
 
 - Website: [astanziola.github.io](https://astanziola.github.io)
 - GitHub: [github.com/astanziola](github.com/astanziola)
-- E-mail: [a.stanziola@ucl.ac.uk](a.stanziola@ucl.ac.uk)
+- E-mail: [antonio.stanziola@ttp.com](antonio.stanziola@ttp.com)
 - Linkedin: [https://www.linkedin.com/in/antonio-stanziola-9a3645239](https://www.linkedin.com/in/antonio-stanziola-9a3645239)
