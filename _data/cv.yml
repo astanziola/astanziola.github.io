@@ -11,9 +11,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Consultant
+      institution: TTP plc, Cambridge, UK
+      year: 2023 - now
+
     - title: Research Fellow
       institution: University College London, London, UK
-      year: 2019 - now
+      year: 2019 - 2022
 
     - title: Teaching, teaching assistant, responsible for content, style and automation of Jupyter Notebooks
       institution: Imperial College Executive Education Programme, London, UK
@@ -56,7 +60,7 @@
       description:
         - Bs.C in Biomedical Engineering, major in biomechanics.
 
-- title: Academic Interests
+- title: Interests
   type: nested_list
   contents:
     - title: Acoustics
@@ -101,7 +105,7 @@
     - title: Programming Languages
       items: 
         - "<b>advanced:</b> MATLAB, Octave, Python"
-        - "<b>basic:</b> Julia, CUDA, C++"
+        - "<b>basic:</b> Julia, CUDA, C++, Rust"
         - "<b>others (advanced):</b> LaTeX, HTML, Markdown"
     - title: Computer Science
       items:

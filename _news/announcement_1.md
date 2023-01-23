@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-08-16 14:48:00-0400
+date: 2022-12-9 14:00:00-0000
 inline: true
 ---
 
-The paper on mapping MRI images to pseudo-CT, amazingly lead by [Maria Miscouridou](http://bug.medphys.ucl.ac.uk/maria-miscouridou), has been [published on IEEE TUFFC](https://ieeexplore.ieee.org/document/9856605).
+Our latest two papers have been published on Arxiv. The first one proposed a [Learned Born Series](https://arxiv.org/pdf/2212.04948.pdf) for fast simulation on high-scattering media, and the second one proposes and auto-diff based method for [uncertainty quantification in transcranial ultrasound](https://arxiv.org/pdf/2212.04405.pdf).

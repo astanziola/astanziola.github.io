@@ -17,10 +17,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a Research Fellow at the [Biomedical Ultrasound Group](http://bug.medphys.ucl.ac.uk), working on Deep Learning for Transcranial Ultrasound Neurostimulation. Where, among various things, I'm trying to [accelerate acoustic simulations using deep learning](https://www.sciencedirect.com/science/article/pii/S0021999121003259).
+I am currently a consultant at [TTP](https://www.ttp.com/) in the Health Tech division.  I have a PhD in Biomedical Engineering with a specialization in [ultrasound vascular imaging and beamforming with contrast agents](https://spiral.imperial.ac.uk/handle/10044/1/78639). Previously, I was a Research Fellow at the [Biomedical Ultrasound Group](http://bug.medphys.ucl.ac.uk), working on Deep Learning for Transcranial Ultrasound Neurostimulation. 
 
-Lately, I became very interested in differentiable programming and I've been working on a couple of JAX projects, namely: [`jwave`](https://github.com/ucl-bug/jwave), a fully differentiable ultrasound simulator inspired by [k-Wave](http://www.k-wave.org/), and a framework for writing differentiable simulators with arbitrary discretizations called [`jaxdf`](https://github.com/ucl-bug/jaxdf).
 
-I'm also interested in ultrasound image and signal processing, especially beamforming, scientiﬁc machine learning, medical image analysis, inverse problems and uncertantiy quantiﬁcation.
+My experience is in various areas more or less related to [ultrasound](https://ieeexplore.ieee.org/document/7426573), such as acoustics, [ultrasound imaging and beamforming](https://pubmed.ncbi.nlm.nih.gov/29994061/), signal processing, [numerical methods](https://arxiv.org/pdf/2212.04948.pdf). I also have background in [differentiable programming](https://arxiv.org/abs/2111.05218), [PDE modeling](https://github.com/ucl-bug/jwave), [deep learning for scientific computing](https://www.sciencedirect.com/science/article/pii/S0021999121003259), medical imaging and inverse problems, [computer vision, and image analysis](https://ieeexplore.ieee.org/abstract/document/7164062).
+
 
 I also like dogs and my parent's golden retriever [Spritz](https://www.instagram.com/ahperospritz/).
