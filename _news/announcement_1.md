@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2022-07-1 00:00:00-0400
+date: 2023-02-16 00:00:00-0400
 title: The paper describing <code>jwave</code> is available on SoftwareX
 inline: false
 ---
