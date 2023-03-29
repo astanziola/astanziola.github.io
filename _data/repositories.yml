@@ -5,6 +5,8 @@ github_repos:
   - ucl-bug/jwave
   - ucl-bug/jaxdf
   - ucl-bug/helmnet
+  - ucl-bug/lbs
+  - ucl-bug/linear-uncertainty
   - astanziola/luprox
   - astanziola/siren-flax
   - astanziola/fourier-neural-operator-flax
