@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='http://bug.medphys.ucl.ac.uk'>Biomedical Ultrasound Group, University College London</a>
 
 profile:
   align: right
