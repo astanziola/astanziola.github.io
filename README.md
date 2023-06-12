@@ -6,11 +6,11 @@
 ![Bash](https://img.shields.io/badge/Bash-Intermediate-yellow)
 ![MATLAB](https://img.shields.io/badge/MATLAB-Expert-green)
 
-I work as a Consultant at TTP plc, in the Health Tech team. 
-
-Previously I worked as a Research Fellow at the 🐛 [Biomedical Ultrasound Group](https://bug.medphys.ucl.ac.uk) of UCL, and at the [Ultrasound Lab for Imaging and Sensing](https://tanglab.bg.ic.ac.uk/) of Imperial College London.
+I am s a Research Fellow at the 🐛 [Biomedical Ultrasound Group](https://bug.medphys.ucl.ac.uk) of UCL. 
 
 My interests span across ultrasound, machine learning, physical modeling, inverse problems and differentiable programming.
+
+Previously I worked as a consultant for [TTP plc](https://www.ttp.com/) and have done research the [Ultrasound Lab for Imaging and Sensing](https://tanglab.bg.ic.ac.uk/) of Imperial College London.
 
 ### 📬 Get in Touch
 
