@@ -11,9 +11,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Fellow
+      institution: University College London, London, UK
+      year: 2023 - Now
+
     - title: Consultant
       institution: TTP plc, Cambridge, UK
-      year: 2023 - now
+      year: 2023
 
     - title: Research Fellow
       institution: University College London, London, UK
@@ -73,6 +77,7 @@
         - Scientific machine learning
         - Differentiable programming
         - PDE solutions
+        - Acoustic simulation
     - title: Deep learning
       items:
         - Deep learning for scientific computing
