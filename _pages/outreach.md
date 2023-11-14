@@ -43,6 +43,6 @@ Seminar at the UCL Centre for AI about the [learned iterative Helmholtz solver](
 
 #### Advanced Neuroimaging, Physical Sciences Module 2 (P2) - Imaging Modalities
 
-2022 - [🔗 Info](https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/advanced-neuroimaging-msc) - [📄 Slides 1](/assets/pdf/anim/lecture_slides_1.pdf) - [📄 Slides 2](/assets/pdf/anim/lecture_slides_2.pdf) 
+2021/2023 - [🔗 Info](https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/advanced-neuroimaging-msc) - [📄 Slides 1](/assets/pdf/anim/lecture_slides_1.pdf) - [📄 Slides 2](/assets/pdf/anim/lecture_slides_2.pdf) 
 
 Two lectures introducing ultrasound imaging and neuro-scientific applications.
