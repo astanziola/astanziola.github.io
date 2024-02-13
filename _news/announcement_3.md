@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-08-16 14:48:00-0400
+date: 2022-12-9 14:00:00-0000
 inline: true
 ---
 
-The international [ITRUSST](https://itrusst.github.io/) effort on benchmarking acoustic simulation softwares for Transcranial Ultrasound, including [jwave](https://github.com/ucl-bug/jwave), has been [published on JASA](https://asa.scitation.org/doi/10.1121/10.0013426).
+Our latest two papers have been published on Arxiv. The first one proposed a [Learned Born Series](https://arxiv.org/pdf/2212.04948.pdf) for fast simulation on high-scattering media, and the second one proposes and auto-diff based method for [uncertainty quantification in transcranial ultrasound](https://arxiv.org/pdf/2212.04405.pdf).
