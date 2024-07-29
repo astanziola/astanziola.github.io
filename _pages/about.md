@@ -16,7 +16,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Research Fellow in Teorectical and Computational Acoustics at the 🐛 [Biomedical Ultrasound Group](https://bug.medphys.ucl.ac.uk) of UCL. I am also member of the [Maths4DL programme](https://maths4dl.ac.uk/team-member/antonio-stanziola).
+Making something new.
+
+I have been a Research Fellow in Teorectical and Computational Acoustics at the 🐛 [Biomedical Ultrasound Group](https://bug.medphys.ucl.ac.uk) of UCL. I was also member of the [Maths4DL programme](https://maths4dl.ac.uk/team-member/antonio-stanziola).
 
 Previously, I was briefly a consultant at [TTP](https://www.ttp.com/) in the Health Tech division, after being a Research Fellow at the [Biomedical Ultrasound Group](http://bug.medphys.ucl.ac.uk), working on Deep Learning for Transcranial Ultrasound Neurostimulation. I have a PhD in Biomedical Engineering, from [Imperial College](https://tanglab.bg.ic.ac.uk/) with a specialization in [ultrasound vascular imaging and beamforming with contrast agents](https://spiral.imperial.ac.uk/handle/10044/1/78639).
 
